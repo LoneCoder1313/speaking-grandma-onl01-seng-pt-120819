@@ -1,5 +1,11 @@
-def speak_to_grandma(arg="HUH?! SPEAK UP, SONNY!")
-  if 
+def speak_to_grandma(string)
+  if string == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  end 
+  if string != string.upcase
+    return "HUH?! SPEAK UP, SONNY!"
+  end
+end 
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
